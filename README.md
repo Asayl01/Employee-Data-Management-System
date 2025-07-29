@@ -55,12 +55,12 @@ Copy the following files into your `htdocs` directory:
 
 C:\
 --> xampp\
---> htdocs\
---> employee-app\
---> index.php  
---> insert.php  
---> toggle.php  
---> style.css
+    --> htdocs\
+        --> employee-app\
+            --> index.php  
+            --> insert.php  
+            --> toggle.php  
+            --> style.css
 
 
 ---
