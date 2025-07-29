@@ -52,11 +52,15 @@ This system allows users to:
 ### 4. Add Project Files
 
 Copy the following files into your `htdocs` directory:
-C:\xampp\htdocs\employee-app
-├── index.php
-├── insert.php
-├── toggle.php
-└── style.css
+
+C:\
+--> xampp\
+--> htdocs\
+--> employee-app\
+--> index.php  
+--> insert.php  
+--> toggle.php  
+--> style.css
 
 
 ---
