@@ -13,7 +13,7 @@ This system allows users to:
 
 ---
 
-## ⚙️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 - Frontend: HTML + CSS
 - Backend: PHP
@@ -22,7 +22,7 @@ This system allows users to:
 
 ---
 
-## 🛠️ How to Run the Project (with XAMPP)
+##  How to Run the Project (with XAMPP)
 
 > This project runs locally using the XAMPP environment.
 
@@ -39,3 +39,33 @@ This system allows users to:
   http://localhost/phpmyadmin
 
 - Create a new database named:
+  employees
+- Inside that database, create a table called:
+  - Use the following structure:
+
+| Column  | Type     | Attributes                     |
+|---------|----------|--------------------------------|
+| id      | INT      | PRIMARY KEY, AUTO_INCREMENT    |
+| name    | VARCHAR  | Length: 255                    |
+| age     | INT      |                                |
+| status  | TINYINT  | Default: 0                     |
+
+---
+
+### 4. Add Project Files to htdocs
+- Copy all the project files:
+- index.php
+- insert.php
+- toggle.php
+- style.css
+
+- Paste them inside:
+- C:\xampp\htdocs\employee-app
+
+  ---
+
+### 5. Run the Web App
+- In your browser, go to:
+  http://localhost/employee-app/
+
+  
