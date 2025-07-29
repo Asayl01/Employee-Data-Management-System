@@ -73,6 +73,11 @@ C:
 ---
 
 ##  Demo
+The GIF below shows:
+- How users can add a new employee
+- How the data appears immediately in the table
+- How the status can be toggled in real time
+- How everything is synced with the database (add, toggle, delete)
 ![demo](employee-app-demo.gif)
 
 نسخ
