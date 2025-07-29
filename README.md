@@ -80,6 +80,4 @@ The GIF below shows:
 - How everything is synced with the database (add, toggle, delete)
 ![demo](employee-app-demo.gif)
 
-نسخ
-تحرير
 
