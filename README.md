@@ -69,3 +69,5 @@ This system allows users to:
   http://localhost/employee-app/
 
   
+## Demo
+![demo](employee-app-demo.fig)
