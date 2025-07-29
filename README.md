@@ -1,6 +1,6 @@
 # Employee Data Management System
 
-This is a simple web-based application for managing employee data, built using HTML, CSS, PHP, and MySQL, and hosted locally using XAMPP.
+A simple web-based application for managing employee data, built using **HTML**, **CSS**, **PHP**, and **MySQL**, and hosted locally using **XAMPP**.
 
 ---
 
@@ -15,10 +15,10 @@ This system allows users to:
 
 ##  Tools & Technologies Used
 
-- Frontend: HTML + CSS
-- Backend: PHP
-- Database: MySQL
-- Local Server: XAMPP (Apache + MySQL)
+- **Frontend**: HTML, CSS  
+- **Backend**: PHP  
+- **Database**: MySQL  
+- **Local Server**: XAMPP (Apache + MySQL)
 
 ---
 
@@ -27,47 +27,50 @@ This system allows users to:
 > This project runs locally using the XAMPP environment.
 
 ### 1. Install XAMPP
-- Download XAMPP from: [https://www.apachefriends.org](https://www.apachefriends.org)
-- Install it on your device and open the XAMPP Control Panel
+- Download from: [https://www.apachefriends.org](https://www.apachefriends.org)
+- Install it and open the **XAMPP Control Panel**
 
 ### 2. Start Apache & MySQL
-- Open XAMPP Control Panel
-- Start both Apache and MySQL modules
+- In the control panel, start:
+  - **Apache**
+  - **MySQL**
 
-### 3. Create Database in phpMyAdmin
-- Open your browser and go to:  
-  http://localhost/phpmyadmin
+### 3. Create the Database
+- Go to: `http://localhost/phpmyadmin`
+- Create a new database named: `employees`
+- Inside the database, create a table with the following structure:
 
-- Create a new database named:
-  employees
-- Inside that database, create a table called:
-  - Use the following structure:
-
-| Column  | Type     | Attributes                     |
-|---------|----------|--------------------------------|
-| id      | INT      | PRIMARY KEY, AUTO_INCREMENT    |
-| name    | VARCHAR  | Length: 255                    |
-| age     | INT      |                                |
-| status  | TINYINT  | Default: 0                     |
+| Column | Type     | Attributes                  |
+|--------|----------|-----------------------------|
+| id     | INT      | PRIMARY KEY, AUTO_INCREMENT |
+| name   | VARCHAR  | Length: 255                 |
+| age    | INT      |                             |
+| status | TINYINT  | Default: 0                  |
 
 ---
 
-### 4. Add Project Files to htdocs
-- Copy all the project files:
-- index.php
-- insert.php
-- toggle.php
-- style.css
+### 4. Add Project Files
 
-- Paste them inside:
-- C:\xampp\htdocs\employee-app
+Copy the following files into your `htdocs` directory:
+C:\xampp\htdocs\employee-app
+├── index.php
+├── insert.php
+├── toggle.php
+└── style.css
 
-  ---
+
+---
 
 ### 5. Run the Web App
-- In your browser, go to:
-  http://localhost/employee-app/
 
-  
-## Demo
+- Open your browser and navigate to:  
+  `http://localhost/employee-app/`
+
+---
+
+##  Demo
 ![demo](employee-app-demo.gif)
+
+نسخ
+تحرير
+
