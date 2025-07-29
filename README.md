@@ -70,4 +70,4 @@ This system allows users to:
 
   
 ## Demo
-![demo](employee-app-demo.fig)
+![demo](employee-app-demo.gif)
